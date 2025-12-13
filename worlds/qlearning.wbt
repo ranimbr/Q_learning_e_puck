@@ -1,0 +1,66 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/WoodenBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.39725857987165586 0.40630021501330693 0.8228643606321127 1.7424138387430999
+  position -0.05392172379227439 -1.2127442681852012 1.4973175438854907
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+}
+E-puck {
+  hidden position_0_0 23365.967942247753
+  hidden position_0_1 25264.314499712513
+  hidden linearVelocity_0 -0.06271941807930533 -0.000482322750509953 4.511085465324518e-05
+  hidden angularVelocity_0 0.0018332970116814971 -0.002349968141966503 -0.0053965847240970985
+  hidden rotation_1 0 1 0 5.084970154050423
+  hidden linearVelocity_1 -0.0628546887567023 -0.0003907160861882671 -1.1266795315164675e-06
+  hidden angularVelocity_1 0.02638875010248546 -3.142253308949987 -0.0033710663175345323
+  hidden rotation_2 0 1 0 5.9095648505751335
+  hidden linearVelocity_2 -0.06284786911615024 -0.0005962238765524415 -6.656807160878912e-06
+  hidden angularVelocity_2 0.02961158101779909 -3.1422211453763156 0.00654661457322488
+  translation 0.4079625783971207 0.39682135502867116 -8.005116280779614e-05
+  rotation 0.00021243565046073854 -0.0003092949653378853 -0.999999929603857 3.133872949196882
+  controller "test_controller"
+}
+WoodenBox {
+  hidden linearVelocity_0 1.4587338988353957e-17 -2.2649723151302286e-17 -5.151644398786498e-17
+  hidden angularVelocity_0 -9.927682206618664e-17 -1.9981797282606888e-16 -9.957264148069757e-17
+  translation -0.07027626969718173 7.10506036443094e-05 0.04921520000000001
+  rotation -3.4525341878109068e-15 9.778614305906915e-14 -1 0.0002701048420036753
+  size 0.1 0.1 0.1
+  mass 2
+}
+WoodenBox {
+  translation 0.4499972676661187 -0.001672169448722454 0.0492447194270605
+  rotation 0.6278910945268745 -0.09563028213750706 -0.7724037950140744 0.00033774545841800253
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+  mass 2
+}
+WoodenBox {
+  translation 0.37629569438517496 -0.44972071246249096 0.049240889262004636
+  rotation 0.0022080584206166536 -0.00281734903073512 -0.9999935934907035 0.00608738271323839
+  name "wooden box(2)"
+  size 0.1 0.1 0.1
+  mass 2
+}
+WoodenBox {
+  hidden linearVelocity_0 -4.8166968724514325e-17 3.7989345502064554e-17 -5.64762086393892e-17
+  hidden angularVelocity_0 -8.353146359836551e-16 -6.9848053470084e-16 -1.6584493619098369e-16
+  translation -0.28019300320415064 0.4413268278972148 0.04921520000000001
+  rotation -7.736282361306754e-15 4.445900435071568e-15 -1 0.0058470799439160545
+  name "wooden box(3)"
+  size 0.1 0.1 0.1
+  mass 2
+}
